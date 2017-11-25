@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glvu">
+      <UniqueIdentifier>{a9036bbb-0ada-474a-8109-83006a1bdb12}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\glvu\camera.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu\glvu.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu\glvuMat16fv.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu\glvuVec3f.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu\glvuVec3fv.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu\snapshot.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu\text.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\glvu\trackball.h">
+      <Filter>glvu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FIELD_3D.h" />
+    <ClInclude Include="src\HW1.h" />
+    <ClInclude Include="src\PARTICLE.h" />
+    <ClInclude Include="src\PARTICLE_SYSTEM.h" />
+    <ClInclude Include="src\VEC3D.h" />
+    <ClInclude Include="src\VEC3F.h" />
+    <ClInclude Include="src\WALL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\glvu\glvu.cpp">
+      <Filter>glvu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FIELD_3D.cpp" />
+    <ClCompile Include="src\HW1.cpp" />
+    <ClCompile Include="src\PARTICLE.cpp" />
+    <ClCompile Include="src\PARTICLE_SYSTEM.cpp" />
+    <ClCompile Include="src\WALL.cpp" />
+  </ItemGroup>
+</Project>

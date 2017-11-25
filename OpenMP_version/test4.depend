@@ -1,0 +1,117 @@
+# depslib dependency file v1.0
+1451048836 source:d:\dokumenter\rain\test4\field_3d.cpp
+	"FIELD_3D.h"
+
+1451048836 d:\dokumenter\rain\test4\field_3d.h
+	<cstdlib>
+	<iostream>
+	"assert.h"
+	"PARTICLE.h"
+
+1451211415 d:\dokumenter\rain\test4\particle.h
+	<cmath>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"VEC3F.h"
+	"VEC3D.h"
+	<vector>
+
+1451048837 d:\dokumenter\rain\test4\vec3f.h
+	<iostream>
+	<cmath>
+
+1451048836 d:\dokumenter\rain\test4\vec3d.h
+	<iostream>
+	<cmath>
+
+1451048837 source:d:\dokumenter\rain\test4\glvu\glvu.cpp
+	"glvu.h"
+	"trackball.h"
+	"text.h"
+	"snapshot.h"
+
+1451193327 d:\dokumenter\rain\test4\glvu\glvu.h
+	<stdlib.h>
+	<time.h>
+	<sys\timeb.h>
+	<GL/glut.h>
+	"glvuVec3f.h"
+	"camera.h"
+
+1451048837 d:\dokumenter\rain\test4\glvu\glvuvec3f.h
+	<stdio.h>
+	<math.h>
+
+1451193337 d:\dokumenter\rain\test4\glvu\camera.h
+	<stdio.h>
+	"glvuVec3f.h"
+	"glvuMat16fv.h"
+	<cstdlib>
+
+1451048837 d:\dokumenter\rain\test4\glvu\glvumat16fv.h
+	<stdio.h>
+	<math.h>
+	"glvuVec3fv.h"
+
+1451048837 d:\dokumenter\rain\test4\glvu\glvuvec3fv.h
+	<stdio.h>
+	<math.h>
+
+1451048837 d:\dokumenter\rain\test4\glvu\trackball.h
+	<stdio.h>
+	<math.h>
+
+1451056525 d:\dokumenter\rain\test4\glvu\text.h
+	<GL/glut.h>
+	<stdio.h>
+	<stdarg.h>
+
+1451048837 d:\dokumenter\rain\test4\glvu\snapshot.h
+
+1451308655 source:d:\dokumenter\rain\test4\hw1.cpp
+	<cstdlib>
+	<time.h>
+	<omp.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"glvu/glvu.h"
+	"WALL.h"
+	"PARTICLE.h"
+	"PARTICLE_SYSTEM.h"
+	<vector>
+	"HW1.h"
+
+1451121457 d:\dokumenter\rain\test4\wall.h
+	<cmath>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"PARTICLE.h"
+	"VEC3D.h"
+
+1451308552 d:\dokumenter\rain\test4\particle_system.h
+	<cmath>
+	<omp.h>
+	"PARTICLE.h"
+	"WALL.h"
+	<vector>
+	"FIELD_3D.h"
+	"HW1.h"
+
+1451221011 d:\dokumenter\rain\test4\hw1.h
+
+1451193433 source:d:\dokumenter\rain\test4\particle.cpp
+	"PARTICLE.h"
+
+1451315818 source:d:\dokumenter\rain\test4\particle_system.cpp
+	"PARTICLE_SYSTEM.h"
+	<omp.h>
+	<time.h>
+	<sstream>
+
+1451193453 source:d:\dokumenter\rain\test4\wall.cpp
+	"WALL.h"
+	<cmath>
+
